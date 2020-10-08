@@ -1,0 +1,402 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server-1",
+      "author": "typicode-1"
+    },
+    {
+      "id": 2,
+      "title": "json-server-2",
+      "author": "typicode-2"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "init": {
+    "stopReels": [
+      [1, 2, 3], [3, 2, 1], [1, 2, 3], [3, 2, 1], [1, 2, 3]
+
+    ],
+    "reelStrip": [],
+    "betValues": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "currentBetIndex": 5,
+    "numberOfSymbols": 9,
+    "symbolIdMap": [],
+
+    "lines": [
+      {
+        "lineId": 0,
+        "lineData": []
+      },
+      {
+        "lineId": 1,
+        "lineData": []
+      },
+      {
+        "lineId": 2,
+        "lineData": []
+      },
+      {
+        "lineId": 3,
+        "lineData": []
+      },
+      {
+        "lineId": 4,
+        "lineData": []
+      },
+      {
+        "lineId": 5,
+        "lineData": []
+      }
+    ],
+    "wins": [],
+    "feature": [],
+
+    "winType": 4,
+    "balance": 100000
+  },
+  "gridspin": [
+    {
+      "id": 0,
+      "stopReels":[ [1, -1, 3], [3, 2, 1], [1, 2, 3], [3, 2, 1], [1, -1, -1]],
+      "reelStrip": [],
+      "betValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "currentBetIndex": 5,
+      "numberOfPaylines": 6,
+      "numberOfSymbols": 9,
+      "symbolIdMap": [],
+
+      "wins": [],
+      "feature": [],
+      "winAmount": 0,
+      "winType": 4,
+      "balance": 100000
+    }
+  ],
+  "spin": [
+    {
+      "id": 0,
+      "stopReels": [[3, 3, 1, 1, 1], [0, 1, 0, 0, 0], [2, 1, 1, 2, 2], [0, 1, 2, 1, 2], [0, 0, 1, 1, 1]],
+      "reelStrip": [],
+      "betValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "currentBetIndex": 5,
+      "numberOfPaylines": 6,
+      "numberOfSymbols": 9,
+      "symbolIdMap": [],
+      "wins": [
+
+      ],
+      "wins_": [
+        {
+          "winAmount": 10,
+          "lineId": 1,
+          "symbolId": 1,
+          "position": [
+            {
+              "reel_id": 0,
+              "row_id": 0
+            }
+          ]
+        },
+        {
+          "winAmount": 20,
+          "lineId": 3,
+          "symbolId": 1,
+          "position": [
+            {
+              "reel_id": 0,
+              "row_id": 0
+            }
+          ]
+        }
+      ],
+      "feature": [],
+      "winAmount": 260,
+      "winType": 4,
+      "balance": 100000
+    },
+
+    {
+      "id": 1,
+      "stopReels": [[1, 1, 1, 1, 1], [0, 1, 0, 0, 0], [2, 1, 1, 2, 2], [0, 1, 2, 1, 2], [0, 0, 1, 1, 1]],
+      "reelStrip": [],
+      "betValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "currentBetIndex": 5,
+      "numberOfPaylines": 6,
+      "numberOfSymbols": 9,
+      "symbolIdMap": [],
+      "wins": [
+        {
+          "winAmount": 10,
+          "lineId": 1,
+          "symbolId": 1,
+          "position": [
+            {
+              "reel_id": 0,
+              "row_id": 0
+            }
+          ]
+        },
+        {
+          "winAmount": 20,
+          "lineId": 3,
+          "symbolId": 1,
+          "position": [
+            {
+              "reel_id": 0,
+              "row_id": 0
+            }
+          ]
+        }
+      ],
+      "feature": [],
+      "winAmount": 260,
+      "winType": 4,
+      "balance": 100000
+    },
+    {
+      "id": 2,
+      "stopReels": [[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [0, 1, 2, 1, 2], [0, 0, 1, 1, 1]],
+      "reelStrip": [],
+      "betValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "currentBetIndex": 5,
+      "numberOfPaylines": 6,
+      "numberOfSymbols": 9,
+      "symbolIdMap": [],
+      "wins": [
+
+        {
+          "winAmount": 20,
+          "lineId": 3,
+          "symbolId": 1,
+          "position": [
+            {
+              "reel_id": 0,
+              "row_id": 0
+            }
+          ]
+        }
+      ],
+      "feature": [
+        {
+          "fi": 1,
+          "fn": "freegame",
+          "freegameSpinCount": 0,
+          "freegameSpinCountWin": 3,
+          "freegameSpinCountRemaining": 3
+
+        }
+      ],
+      "winAmount": 260,
+      "winType": 4,
+      "balance": 100000
+    }
+  ],
+  "freespin": [
+    {
+      "id": 0,
+      "stopReels":[ [3, 6, 4, 3, 0], [0, 1, 2, 1, 2], [0, 0, 1, 1, 1]],
+      "reelStrip": [],
+      "betValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "currentBetIndex": 5,
+      "numberOfPaylines": 6,
+      "numberOfSymbols": 9,
+      "symbolIdMap": [],
+
+      "wins": [],
+      "feature": [
+        {
+          "fi": 1,
+          "fn": "freegame",
+          "freegameSpinCount": 0,
+          "freegameSpinCountWin": 3,
+          "freegameSpinCountRemaining": 2
+
+        }
+      ],
+      "winAmount": 0,
+      "winType": 4,
+      "balance": 100000
+    },
+    {
+      "id": 1,
+      "stopReels": [[1, 1, 1, 1, 1], [0, 1, 0, 0, 0], [2, 1, 1, 2, 2]],
+      "reelStrip": [],
+      "betValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "currentBetIndex": 5,
+      "numberOfPaylines": 6,
+      "numberOfSymbols": 9,
+      "symbolIdMap": [],
+      "wins": [
+        {
+          "winAmount": 10,
+          "lineId": 2,
+          "symbolId": 1,
+          "position": [
+            {
+              "reel_id": 0,
+              "row_id": 0
+            }
+          ]
+        },
+        {
+          "winAmount": 20,
+          "lineId": 4,
+          "symbolId": 1,
+          "position": [
+            {
+              "reel_id": 0,
+              "row_id": 0
+            }
+          ]
+        }
+      ],
+      "feature": [
+        {
+          "fi": 1,
+          "fn": "freegame",
+          "freegameSpinCount": 0,
+          "freegameSpinCountWin": 3,
+          "freegameSpinCountRemaining": 1
+
+        }
+      ],
+      "winAmount": 260,
+      "winType": 4,
+      "balance": 100000
+    },
+    {
+      "id": 2,
+      "stopReels": [[1, 1, 1, 1, 1], [0, 1, 0, 0, 0], [2, 1, 1, 2, 2]],
+      "reelStrip": [],
+      "betValues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "currentBetIndex": 5,
+      "numberOfPaylines": 6,
+      "numberOfSymbols": 9,
+      "symbolIdMap": [],
+      "wins": [
+        {
+          "winAmount": 10,
+          "lineId": 3,
+          "symbolId": 1,
+          "position": [
+            {
+              "reel_id": 0,
+              "row_id": 0
+            }
+          ]
+        }
+      ],
+      "feature": [
+        {
+          "fi": 1,
+          "fn": "freegame",
+          "freegameSpinCount": 0,
+          "freegameSpinCountWin": 3,
+          "freegameSpinCountRemaining": 0
+
+        }
+      ],
+      "winAmount": 260,
+      "winType": 4,
+      "balance": 100000
+    }
+  ]
+}
